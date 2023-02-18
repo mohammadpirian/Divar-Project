@@ -55,7 +55,8 @@ const Navbar = () => {
             child: Button({
               variant: "link2",
               child: "دیوار من",
-              className:'flex p-3 bg-gray-100 rounded-md w-24 justify-center text-gray-500 text-xs text-black font-semibold',
+              className:
+                "flex p-3 bg-gray-100 rounded-md w-24 justify-center text-gray-500 text-xs text-black font-semibold",
             }),
           }),
           El({
