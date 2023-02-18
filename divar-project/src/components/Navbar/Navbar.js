@@ -1,6 +1,5 @@
 import El from "../../library/El";
 import Button from "../Button/Button";
-import hamber from "../../img/hamburger.png";
 import logo from "../../img/logo.svg";
 import Input from "./../Input/Input";
 
@@ -11,7 +10,7 @@ const Navbar = () => {
     child: [
       El({
         element: "div",
-        className: "flex py-4 w-screen items-center ",
+        className: "flex py-4 w-1/2 items-center gap-2",
         child: [
           El({
             element: "a",
@@ -29,7 +28,7 @@ const Navbar = () => {
           El({
             child: Button({
               element: "button",
-              variant: "link",
+              variant: "link2",
               child: "36 شهر",
             }),
           }),
@@ -50,12 +49,13 @@ const Navbar = () => {
       }),
       El({
         element: "div",
-        className: "flex py-4 w-screen items-center  justify-end",
+        className: "flex py-4 w-1/2 items-center  justify-end gap-2",
         child: [
           El({
             child: Button({
               variant: "link2",
               child: "دیوار من",
+              className:'flex p-3 bg-gray-100 rounded-md w-24 justify-center text-gray-500 text-xs text-black font-semibold',
             }),
           }),
           El({
@@ -66,7 +66,7 @@ const Navbar = () => {
           }),
           El({
             child: Button({
-              variant: "link2",
+              variant: "link",
               child: "پشتیبانی",
             }),
           }),
