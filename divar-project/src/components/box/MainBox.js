@@ -1,11 +1,12 @@
 import El from "../../library/El";
 import DivCard from "../DivCard/DivCard";
+import SideBar from "../SideBar/SideBar";
 
 const MainBox= () => {
     return El({
         element:'div',
-        className:'flex w-9/12 bg-gray-100 gap-4 flex-wrap',
-        child:[DivCard(),]
+        className:'flex w-full bg-gray-100 gap-4 ',
+        child:[SideBar(),DivCard(),]
       
     });
    

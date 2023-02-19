@@ -6,7 +6,7 @@ import Input from "./../Input/Input";
 const Navbar = () => {
   return El({
     element: "nav",
-    className: "w-screen px-12 flex shadow",
+    className: "w-screen px-12 flex shadow fixed z-10 bg-white",
     child: [
       El({
         element: "div",
@@ -29,7 +29,14 @@ const Navbar = () => {
             child: Button({
               element: "button",
               variant: "link2",
-              child: "36 شهر",
+              
+              child: [
+                El({
+                  element:'img',
+                  className:'w-5 ml-2',
+                  src:'./src/img/location.png'
+                }),
+                '36شهر'],
             }),
           }),
           El({
@@ -54,7 +61,13 @@ const Navbar = () => {
           El({
             child: Button({
               variant: "link2",
-              child: "دیوار من",
+              child: [
+                El({
+                  element:'img',
+                  className:'w-5 ml-1',
+                  src:'./src/img/user.png'
+                }),
+                'دیوار من'],
               className:
                 "flex p-3 bg-gray-100 rounded-md w-24 justify-center text-gray-500 text-xs text-black font-semibold",
             }),
@@ -62,7 +75,13 @@ const Navbar = () => {
           El({
             child: Button({
               variant: "link",
-              child: "چت",
+              child: [
+                El({
+                  element:'img',
+                  className:'w-4 ml-2',
+                  src:'./src/img/chat.png'
+                }),
+                'چت'],
             }),
           }),
           El({

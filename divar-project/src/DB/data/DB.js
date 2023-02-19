@@ -57,6 +57,62 @@ const DB=[{
     date:'یک روز پیش',
     src:'./src/DB/img/7.jpg'
 },
+{
+    id: 7,
+    title:'ذبح گوسفند',
+    condition:'نو',
+    price:'1800000 تومان',
+    date:'یک روز پیش',
+    src:'./src/DB/img/8.jpg'
+},
+{
+    id: 8,
+    title:'فرش نو 6 متری',
+    condition:'نو',
+    price:'6500000 تومان',
+    date:'یک روز پیش',
+    src:'./src/DB/img/9.jpg'
+},
+{
+    id: 9,
+    title:'مبل فرانک',
+    condition:'نو',
+    price:'9500000 تومان',
+    date:'یک روز پیش',
+    src:'./src/DB/img/10.jpg'
+},
+{
+    id: 10,
+    title:'خرید و فروش صفحه گرامافون',
+    condition:'نو',
+    price:'20000000 تومان',
+    date:'یک روز پیش',
+    src:'./src/DB/img/11.jpg'
+},
+{
+    id: 11,
+    title:'کتونی مردانه',
+    condition:'نو',
+    price:'53000 تومان',
+    date:'یک روز پیش',
+    src:'./src/DB/img/12.jpg'
+},
+{
+    id: 12,
+    title:'بازی کامپیوتری',
+    condition:'نو',
+    price:'50000 تومان',
+    date:'یک روز پیش',
+    src:'./src/DB/img/13.jpg'
+},
+{
+    id: 13,
+    title:'78 متر شوش شرقی نوساز',
+    condition:'نو',
+    price:'2340000000 تومان',
+    date:'یک روز پیش',
+    src:'./src/DB/img/14.jpg'
+},
 
 ]
 export default DB;

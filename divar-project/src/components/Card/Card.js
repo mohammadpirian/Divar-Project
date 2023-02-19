@@ -16,7 +16,7 @@ const Card = ({
       El({
         element: "div",
         className:
-          "flex border border-gray-300 w-80  p-4 rounded-md items-center",
+          "flex border border-gray-300 w-96  p-4 rounded-md items-center",
         child: [
           El({
             element: "div",
