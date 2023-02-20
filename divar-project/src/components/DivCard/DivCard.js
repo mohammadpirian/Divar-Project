@@ -6,7 +6,7 @@ import DB from "../../DB/data/DB";
 const DivCard = () => {
   return El({
       element:'div',
-      className:'flex flex-wrap gap-3 w-full py-16 w-9/12 mt-12 mr-72 xsm:mr-0 xsm:justify-center',
+      className:'flex flex-wrap gap-3 w-full py-16 xsm:mr-0 w-9/12 mt-12 xsm:mt-16 mr-72 xsm:mr-0 xsm:justify-center',
     child: DB.map((item)=>Card(item))
   });
   // let database = DB.map((item) => {

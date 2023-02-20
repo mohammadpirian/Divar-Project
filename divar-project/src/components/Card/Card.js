@@ -16,7 +16,7 @@ const Card = ({
       El({
         element: "div",
         className:
-          "flex border border-gray-300 w-96  p-4 rounded-md items-center",
+          "flex border border-gray-300 w-96 xsm:w-screen p-4 xsm:justify-between rounded-md items-center",
         child: [
           El({
             element: "div",
@@ -51,7 +51,7 @@ const Card = ({
           }),
           El({
             element: "div",
-            className: "w-5/12",
+            className: "w-5/12 flex justify-end",
             child: [
               El({
                 element: "img",

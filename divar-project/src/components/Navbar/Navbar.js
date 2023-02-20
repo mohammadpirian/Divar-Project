@@ -101,7 +101,7 @@ const Navbar = () => {
       }),
       El({
         element:'div',
-        className:'lg:hidden w-full px-2 py-1',
+        className:'lg:hidden w-full px-2 py-1 shadow',
         child:[ Input2({
             element: "input",
             variant: "search",}),
@@ -121,26 +121,26 @@ const Navbar = () => {
       }),
       El({
         element:'div',
-        className:'lg:hidden w-full px-2 py-1 flex gap-2 overflow-x-scroll',
+        className:'lg:hidden w-full px-2 py-1 flex gap-2 overflow-x-scroll mt-2 ',
         child:[ Button({
           variant:'outlined',
-          child:'فیلتر ها'
+          child:'فیلترها'
         }),
         Button({
           variant:'outlined',
-          child:'دسته ها'
+          child:'دسته‌ها'
         }),
         Button({
           variant:'outlined',
-          child:'خودرو سازی'
+          child:'خودروسازی'
         }),
         Button({
           variant:'outlined',
-          child:'فروش آپارتمان'
+          child:'فروش‌آپارتمان'
         }),
         Button({
           variant:'outlined',
-          child:'اجاره آپارتمان'
+          child:'اجاره‌آپارتمان'
         }),
         Button({
           variant:'outlined',
@@ -148,7 +148,7 @@ const Navbar = () => {
         }),
         Button({
           variant:'outlined',
-          child:'صندلی و نیمکت'
+          child:'صندلی‌و‌نیمکت'
         }),
           ]
       })
