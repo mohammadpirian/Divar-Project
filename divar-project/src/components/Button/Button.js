@@ -2,11 +2,17 @@ import El from "../../library/El";
 
 const variants = {
   contained:
-    "flex justify-center bg-red-700 text-white-me p-3  rounded-md w-28 hover:bg-red-600 hover:font-semibold h-10 items-center",
-  outlined: " border border-2 text-blue-700 font-bold border-blue-700 text-lg h-10 items-center",
-  link: "flex bg-transparent p-3 hover:bg-gray-100 rounded-md w-20 justify-center text-gray-500 text-xs hover:text-black hover:font-semibold h-10 items-center",
-  link2:"flex bg-transparent p-3 hover:bg-gray-100 rounded-md w-24 justify-center text-gray-500 text-xs hover:text-black hover:font-semibold h-10 items-center",
-  link3:"flex bg-transparent p-3 hover:bg-gray-100 rounded-md w-28 justify-center text-gray-500 text-xs hover:text-black hover:font-semibold h-10 items-center",
+    "flex justify-center bg-red-700 text-white-me p-3  rounded-md w-28 hover:bg-red-600 hover:font-semibold h-10 items-center inline-block rounded-md text-sm py-2 px-6",
+  outlined:
+    "flex text-center inline-block border border-1 text-gray-500 font-thin border-gray-300 rounded-full text-lg h-9 items-center text-sm py-2 px-4",
+
+  link: "flex bg-transparent p-3 hover:bg-gray-100 rounded-md w-20 justify-center text-gray-500 text-xs hover:text-black hover:font-semibold h-10 items-center inline-block rounded-md text-sm py-2 px-6",
+  link2:
+    "flex bg-transparent p-3 hover:bg-gray-100 rounded-md w-24 justify-center text-gray-500 text-xs hover:text-black hover:font-semibold h-10 items-center inline-block rounded-md text-sm py-2 px-6",
+  link3:
+    "flex bg-transparent p-3 hover:bg-gray-100 rounded-md w-28 justify-center text-gray-500 text-xs hover:text-black hover:font-semibold h-10 items-center inline-block rounded-md text-sm py-2 px-6",
+  link4:
+    "flex bg-transparent py-3 hover:bg-gray-100 rounded-md w-32 justify-center text-gray-500 text-xs hover:text-black hover:font-semibold h-10 items-center inline-block rounded-md text-sm py-2 px-6",
 };
 
 const Button = ({
@@ -17,7 +23,7 @@ const Button = ({
 }) => {
   return El({
     element: element,
-    className: `${variants[variant]} inline-block rounded-md text-sm py-2 px-6`,
+    className: `${variants[variant]} `,
     child,
     ...rest,
   });

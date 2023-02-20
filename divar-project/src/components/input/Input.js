@@ -2,6 +2,8 @@ import El from "../../library/El";
 const variants = {
   search:
     "w-96 p-2 bg-gray-200 rounded-md hover:bg-slate-200 focus:border-none",
+    search2:
+    "w-full p-2 bg-gray-200 rounded-md hover:bg-slate-200 focus:border-none",
 };
 const Input = ({ element = "input", child, variant = "search", ...rest }) => {
   return El({

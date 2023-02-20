@@ -3,7 +3,7 @@ import El from "../../library/El";
 const Container = (child) => {
     return (El({
         element:'div',
-        className:'container',
+        className:'w-screen',
         child,
     }) );
 }

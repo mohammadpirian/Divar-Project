@@ -5,7 +5,7 @@ import SideBar from "../SideBar/SideBar";
 const MainBox= () => {
     return El({
         element:'div',
-        className:'flex w-full bg-gray-100 gap-4 ',
+        className:'flex w-full',
         child:[SideBar(),DivCard(),]
       
     });

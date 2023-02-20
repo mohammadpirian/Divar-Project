@@ -3,7 +3,7 @@ import Button from "../Button/Button";
 const SideBar = () => {
   return El({
     element: "div",
-    className: "w-2/12 p-8 flex flex-col ml-10 mt-24 fixed",
+    className: "w-2/12 p-8 flex flex-col mt-24 fixed xsm:hidden",
     child: [
       El({
         element: "div",
